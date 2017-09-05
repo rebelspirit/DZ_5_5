@@ -43,26 +43,23 @@ header {
  	width: 960px;
  	margin-bottom: 30px;
 }
-.container_box_1 {
-  	width: 1050px; 
-  	height: 600px;
-	background-color: #fff;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
-}
 .service_1 {
 	float: left;
 	width: 510px;
-	height: 426px;
 	margin-right: 15px;
+	margin-bottom: 50px;
 }
+
 .service_2 {
 	float: right;
 	width: 510px;
-	height: 426px;
 	margin-left: 15px;
+	margin-bottom: 50px;
 }
+.service_clear {
+	clear: both;
+}
+
 .button {
 	width: 510px;
 	height: 50px;
@@ -78,30 +75,20 @@ header {
 	color: #fff;
 	font-weight: bold;
 }
-.container_box_2 {
-  	width: 1050px; 
-  	height: 700px;
-	background-color: #fff;
-	margin-right: auto;
-	margin-left: auto;
-}
 .service_3 {
 	float: left;
 	width: 320px;
-	height: 426px;
 	margin-right: 45px;
 }
 .service_4 {
 	display: inline-block;
 	width: 320px;
-	height: 426px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .service_5 {
 	float: right;
 	width: 320px;
-	height: 426px;
 	margin-left: 45px;
 }
 .button_2_1 {
@@ -136,8 +123,10 @@ header {
 }
 .footer {
 	width: 1060px;
+	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 50px;
 }
 .footer_1 {
 	margin-bottom: 25px;
